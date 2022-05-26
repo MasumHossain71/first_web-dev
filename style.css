@@ -1,3 +1,29 @@
+body{
+  background:yellow;
+}
+img{
+  height:150px;
+  width: 200px;
+  position: absolute;
+  top:15%;
+  left:50%;
+  transform:translateX(-50%) translateY(-50%);
+}
+h1{
+  position:absolute;
+  left:50%;
+  top:25%;
+  transform:translatex(-50%) translateY(-50%)
+}
+.red{
+  color:rgb(17, 0, 255);
+  font-family: arial;
+}
 p{
-  color:red;
+  font: bold impact;
+  text-decoration: overline;
+  position: absolute;
+  top:30%;
+  left:50%;
+  transform:translateX(-50%) translateY(-50%);
 }
