@@ -1,29 +1,25 @@
 body{
-  background:yellow;
+  background:pink;
 }
 img{
-  height:150px;
+  height: 150px;
   width: 200px;
-  position: absolute;
+  position:absolute;
   top:15%;
   left:50%;
-  transform:translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
 }
 h1{
+  font-family: impact;
   position:absolute;
-  left:50%;
   top:25%;
-  transform:translatex(-50%) translateY(-50%)
-}
-.red{
-  color:rgb(17, 0, 255);
-  font-family: arial;
+  left:50%;
+  transform: translateX(-50%) translateY(-50%);
 }
 p{
-  font: bold impact;
-  text-decoration: overline;
-  position: absolute;
+  font-family: arial;
+  position:absolute;
   top:30%;
   left:50%;
-  transform:translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
 }
